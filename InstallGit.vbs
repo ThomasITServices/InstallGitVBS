@@ -21,7 +21,7 @@ Else
     Dim ProgramName: ProgramName = "Install Git"
     Dim popOnTop : popOnTop = 4096
     Dim ProgramPath : ProgramPath = "\\netapp3\#netapp3\Aero_IET\Software\Applications\gitSetup\source\Git-2.9.0-64-bit.exe"
-    Dim Arg : Arg = "/SILENT"
+    Dim Arg : Arg = "/SILENT /NOCANCEL"
 
     Dim objShell : Set objShell = createobject("Wscript.shell")
     Dim oFSO: Set oFSO = CreateObject("Scripting.FileSystemObject")
